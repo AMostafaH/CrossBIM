@@ -1,0 +1,311 @@
+﻿@page
+@model CrossBIM.Pages.DXFToIFC.DownLoadModel
+@{
+}
+
+
+@*<div class="row" style="margin: auto;width:80%">*@
+
+@*<h3 class="mt-3 container">Download IFC File</h3>
+    <hr class="container" />
+
+    <div class="col-md-4 container">
+        <form method="post" enctype="multipart/form-data">
+            <input asp-for="IFCFileName" hidden />
+            <div class="form-group">
+                <button type="submit" asp-page-handler="DownloadFile" class="btn btn-info">
+                    <i class="fa fa-cloud-download fa-fw"></i> Download IFC
+                </button>
+            </div>
+        </form>
+    </div>*@
+@*</div>*@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>xViewer</title>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+    <script type="text/javascript" src="~/Viewer/gl-matrix.js"></script>
+    <script type="text/javascript" src="~/Viewer/jquery.js"></script>
+    <script type="text/javascript" src="~/Viewer/webgl-utils.js"></script>
+
+    <script type="text/javascript" src="~/Viewer/xbim-product-type.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-state.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-shaders.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-model-geometry.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-model-handle.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-binary-reader.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-triangulated-shape.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/xbim-viewer.debug.js"></script>
+
+    <script type="text/javascript" src="~/Viewer/XBIM/xbim-viewer.debug.bundle.js"></script>
+    <script type="text/javascript" src="~/Viewer/XBIM/NavigationCube/xbim-navigation-cube-shaders.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/XBIM/NavigationCube/xbim-navigation-cube.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/XBIM/NavigationCube/xbim-navigation-cube-textures.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/XBIM/NavigationHome/xbim-navigation-home-textures.debug.js"></script>
+    <script type="text/javascript" src="~/Viewer/XBIM/NavigationHome/xbim-navigation-home.debug.js"></script>
+
+    <style>
+
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+            border: none;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="DownloadContainer">
+        <div class="container">
+            <div class="col-md-4 pt-3">
+                <form method="post" enctype="multipart/form-data">
+                    <input asp-for="IFCFileName" hidden />
+                    <div class="form-group" style="margin:0">
+                        <button type="submit" asp-page-handler="DownloadFile" class="btn btn-info">
+                            <i class="fa fa-cloud-download fa-fw"></i> Download IFC
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <canvas id="viewer" width="500" height="500"></canvas>
+        <script type="text/javascript">
+                var viewer = new xViewer('viewer');
+                viewer.load("@Model.WexBIMUploadedFileUrl");
+                /*viewer.load("https://res.cloudinary.com/amostafah/raw/upload/v1623659457/CrossBIM/firstProject%20%2815%29.wexBIM");*/
+               /* viewer.load('../data/SampleHouse.wexbim');*/
+                @*viewer.load('@System.Configuration.ConfigurationManager.AppSettings["wexBIMFullPath"]');*@
+                var navCube = new xNavigationCube();
+                navCube.ratio = .15;
+                viewer.addPlugin(navCube);
+                viewer.start();
+
+
+        </script>
+    </div>
+
+    @*<script>
+                viewer.on('pick', function (args) {
+                    var id = args.id;
+                    viewer.setCameraTarget(id);
+                    pickedId = id;
+                });
+        </script>*@
+
+    @*<script>
+        viewer.on('fps', function (fps) {
+            var span = document.getElementById('fps');
+            if (span) {
+                span.innerHTML = "Frames Per Seconf :" + fps;
+            }
+        });
+    </script>
+
+    <div class="container">
+        <div>
+            <label id="productId"> </label>
+            <br />
+            <label id="fps"> </label>
+        </div>
+
+        <div>
+            <input type="text" id="camX" value="-20" />
+            <input type="text" id="camY" value="-20" />
+            <input type="text" id="camZ" value="20" />
+            <button onclick="SetCamera()">Set camera</button>
+        </div>
+
+        <script type="text/javascript">
+            function SetCamera() {
+                if (viewer) {
+                    var iX = document.getElementById('camX');
+                    var iY = document.getElementById('camY');
+                    var iZ = document.getElementById('camZ');
+                    viewer.setCameraPosition([iX.value, iY.value, iZ.value]);
+                }
+            }
+        </script>
+
+        <div>
+            <button onclick="if (viewer) viewer.show('front');">Front</button>
+            <button onclick="if (viewer) viewer.show('back');">Back</button>
+            <button onclick="if (viewer) viewer.show('top');">Top</button>
+            <button onclick="if (viewer) viewer.show('bottom');">Bottom</button>
+            <button onclick="if (viewer) viewer.show('left');">Left</button>
+            <button onclick="if (viewer) viewer.show('right');">Right</button>
+        </div>
+
+        <div>
+            <button onclick="if (viewer) viewer.navigationMode = 'orbit';">Orbit</button>
+            <button onclick="if (viewer) viewer.navigationMode = 'free-orbit';">Free orbit</button>
+            <button onclick="if (viewer) viewer.navigationMode = 'pan';">Pan</button>
+            <button onclick="if (viewer) viewer.navigationMode = 'zoom';">Zoom</button>
+
+            <button onclick="if (viewer) viewer.navigationMode = 'none';">Disable default navigation completely</button>
+        </div>
+
+
+        <div>
+            <button onclick="if (viewer) viewer.clip();">Interactive clipping</button>
+            <button onclick="if (viewer) viewer.unclip();">Unclip</button>
+            <br />
+            <input type="text" id="clipOrigX" value="0" />
+            <input type="text" id="clipOrigY" value="0" />
+            <input type="text" id="clipOrigZ" value="0" />
+            <br />
+            <input type="text" id="clipNormX" value="-1" />
+            <input type="text" id="clipNormY" value="0" />
+            <input type="text" id="clipNormZ" value="0" />
+            <br />
+            <button onclick="Clip()">Clip</button>
+            <script type="text/javascript">
+                function Clip() {
+                    var oX = document.getElementById('clipOrigX').value;
+                    var oY = document.getElementById('clipOrigY').value;
+                    var oZ = document.getElementById('clipOrigZ').value;
+
+                    var nX = document.getElementById('clipNormX').value;
+                    var nY = document.getElementById('clipNormY').value;
+                    var nZ = document.getElementById('clipNormZ').value;
+
+                    if (viewer)
+                        viewer.clip([oX, oY, oZ], [nX, nY, nZ]);
+                }
+            </script>
+        </div>
+        <div>
+            <select id="cmbHide">
+                <option value="noAction">No action</option>
+                <option value="hideProduct">Hide product</option>
+                <option value="hideType">Hide type</option>
+                <option value="highlight">Highlight</option>
+            </select>
+            <button onclick="if (viewer) viewer.resetStates()">Show all</button>
+            <script type="text/javascript">
+
+                var timer = 0;
+
+                viewer.on('pick', function (args) {
+                    var id = args.id;
+                    viewer.setCameraTarget(id);
+                    pickedId = id;
+                    document.getElementById('hiddenId').value = id;
+                    var span = document.getElementById('productId');
+                    if (span) {
+                        span.innerHTML = "Selected Product Id = " + id;
+                    }
+
+                    var cmb = document.getElementById('cmbHide');
+                    var option = cmb.value;
+                    switch (option) {
+                        case 'hideProduct':
+                            viewer.setState(xState.HIDDEN, [args.id]);
+                            break;
+                        case 'hideType':
+                            var type = viewer.getProductType(args.id);
+                            viewer.setState(xState.HIDDEN, type);
+                            break;
+                        case 'highlight':
+                            viewer.setState(xState.HIGHLIGHTED, [args.id]);
+                            break;
+                        default:
+                            break;
+                    }
+
+                    var time = (new Date()).getTime();
+                    if (time - timer < 200)
+                        viewer.zoomTo(id);
+                    timer = time;
+
+                });
+            </script>
+        </div>
+
+        <div>
+            Rendering mode
+            <label>
+                <input type="radio" name="rRenderingMode" checked="checked"
+                       onchange="if (viewer) viewer.renderingMode = 'normal';" />
+                Normal
+            </label>
+            <label>
+                <input type="radio" name="rRenderingMode"
+                       onchange="if (viewer) viewer.renderingMode = 'x-ray';" />
+                X-Ray
+            </label>
+        </div>
+
+        <button onclick="Recolour()">Recolour by type</button>
+        <button onclick="if (viewer) viewer.resetStyles();">Reset styles</button>
+
+        <script type="text/javascript">
+            function Recolour() {
+                if (!viewer) return;
+                var index = 0;
+                for (var i in xProductType) {
+                    var type = xProductType[i];
+                    var colour = [Math.random() * 255, Math.random() * 255, Math.random() * 255, 255];
+                    viewer.defineStyle(index, colour);
+                    viewer.setStyle(index, type);
+                    index++;
+                }
+            };
+        </script>
+
+        @using (Html.BeginForm("Modify", "Home", FormMethod.Post, new { id = "myForm" }))
+        {
+            <input name="hiddenId" type="hidden" id="hiddenId" />
+            <input name="newX" type="number" id="newX" />
+            <input name="newY" type="number" id="newY" />
+            <input type="submit" onclick="SubmitData(event)" value="Modify CrossSection" />
+
+        }
+
+        <script>
+            function SubmitData(e) {
+                debugger;
+                e.preventDefault();
+
+
+                var pId = document.getElementById("hiddenId").value;
+                var newX = document.getElementById("newX").value;
+                var newY = document.getElementById("newY").value;
+                debugger;
+
+                // Your Logic
+                var f = $('#myForm');
+                f.submit();
+
+
+            }
+        </script>
+        
+    </div>*@
+
+</body>
+</html>
+<style>
+    .DownloadContainer {
+        background: #e6e6e6
+    }
+    .footer {
+        position: static !important;
+        /*margin-top: 100px*/
+    }
+</style>
+

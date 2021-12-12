@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "dgSpecHash": "2BDatMnhJOHdi29E5U/79EQyE6+klSZ2VCBbPH40UIFRkhkwzQfHboI5inWDSQ17yDRlFSiD3c7LyPVOGR+rdA==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\CrossBIM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\A7MAD\\.nuget\\packages\\cloudinarydotnet\\1.15.2\\cloudinarydotnet.1.15.2.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\emgu.cv\\4.5.1.4349\\emgu.cv.4.5.1.4349.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\emgu.cv.bitmap\\4.5.1.4349\\emgu.cv.bitmap.4.5.1.4349.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\emgu.cv.runtime.windows\\4.5.1.4349\\emgu.cv.runtime.windows.4.5.1.4349.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x64\\19.28.29336\\emgu.runtime.windows.msvc.rt.x64.19.28.29336.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\emgu.runtime.windows.msvc.rt.x86\\19.28.29336\\emgu.runtime.windows.msvc.rt.x86.19.28.29336.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.3\\microsoft.extensions.configuration.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.3\\microsoft.extensions.configuration.binder.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.3\\microsoft.extensions.dependencyinjection.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.logging\\3.1.3\\microsoft.extensions.logging.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.3\\microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.extensions.webencoders\\5.0.3\\microsoft.extensions.webencoders.5.0.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\netdxf\\2.2.0.1\\netdxf.2.2.0.1.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.text.encodings.web\\5.0.0\\system.text.encodings.web.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.common\\5.1.323\\xbim.common.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.essentials\\5.1.323\\xbim.essentials.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.geometry\\5.1.403\\xbim.geometry.5.1.403.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.geometry.engine.interop\\5.1.403\\xbim.geometry.engine.interop.5.1.403.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.ifc\\5.1.323\\xbim.ifc.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.ifc2x3\\5.1.323\\xbim.ifc2x3.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.ifc4\\5.1.323\\xbim.ifc4.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.io.memorymodel\\5.1.323\\xbim.io.memorymodel.5.1.323.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.modelgeometry.scene\\5.1.403\\xbim.modelgeometry.scene.5.1.403.nupkg.sha512",
+    "C:\\Users\\A7MAD\\.nuget\\packages\\xbim.tessellator\\5.1.323\\xbim.tessellator.5.1.323.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'netDXF 2.2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "netDXF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.Geometry.Engine.Interop 5.1.403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.Geometry.Engine.Interop",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xbim.ModelGeometry.Scene 5.1.403' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Xbim.ModelGeometry.Scene",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

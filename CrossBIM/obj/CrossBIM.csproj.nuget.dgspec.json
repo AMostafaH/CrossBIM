@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\CrossBIM.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\CrossBIM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\CrossBIM.csproj",
+        "projectName": "CrossBIM",
+        "projectPath": "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\CrossBIM.csproj",
+        "packagesPath": "C:\\Users\\A7MAD\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\Uploads\\CrossBIMStrikers2\\CrossBIM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A7MAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.15.2, )"
+            },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.5.1.4349, )"
+            },
+            "Emgu.CV.Bitmap": {
+              "target": "Package",
+              "version": "[4.5.1.4349, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.5.1.4349, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Xbim.Essentials": {
+              "target": "Package",
+              "version": "[5.1.323, )"
+            },
+            "Xbim.Geometry": {
+              "target": "Package",
+              "version": "[5.1.403, )"
+            },
+            "netDXF": {
+              "target": "Package",
+              "version": "[2.2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

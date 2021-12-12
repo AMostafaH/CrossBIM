@@ -1,0 +1,181 @@
+﻿@page
+@model CrossBIM.Pages.DXFToIFC.StoreyFullDetailsModel
+@{
+}
+
+<div class="mt-3 container">
+    <div style="margin: auto;width:60%">
+
+        <h3>Storey Full Details</h3>
+        <hr />
+
+        <div class="modal-body">
+            <form method="post" id="storeyDetails" enctype="multipart/form-data">
+
+                <input asp-for="ProjectUnits" hidden />
+                <input asp-for="ProjectName" hidden />
+
+                <input asp-for="ViewModelStorey.BeamsNumberOfCategories" hidden />
+                <input asp-for="ViewModelStorey.SlabsNumberOfCategories" hidden />
+                <input asp-for="ViewModelStorey.DXFFilePath" hidden />
+                <input asp-for="ViewModelStorey.NumOfRepetitions" hidden />
+                <input asp-for="ViewModelStorey.Height" hidden />
+                <input asp-for="ViewModelStorey.Elevation" hidden />
+
+                <div>
+                    <div class="form-group row">
+                        <label class="col-md-5 col-form-label">Column Layer Name</label>
+                        <div class="col-md-7">
+                            <select asp-for="ViewModelColumn.ColumnLayerName" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                            <span asp-validation-for="ViewModelColumn.ColumnLayerName" class="alert-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-md-5 col-form-label">Shear Wall Layer Name</label>
+                        <div class="col-md-7">
+                            <select asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                            <span class="alert-danger"></span>
+                        </div>
+                    </div>
+
+                    @*<div class="form-group row">
+                        <label class="col-md-5 col-form-label">Column Low Level</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelColumn.ColumnLowLevel" class="form-control">
+                            <span asp-validation-for="ViewModelColumn.ColumnLowLevel" class="alert-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-5 col-form-label">Column Height </label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelColumn.ColumnHeight" class="form-control">
+                            <span asp-validation-for="ViewModelColumn.ColumnHeight" class="alert-danger"></span>
+                        </div>
+                    </div>*@
+                </div>
+
+
+                @if (Model.ViewModelStorey?.BeamsNumberOfCategories > 0)
+                {
+                    @for (int i = 0; i < Model.ViewModelStorey?.BeamsNumberOfCategories; i++)
+                    {
+                        <hr style="width:70%" />
+                        <div>
+                            <div class="form-group row">
+                                <label class="col-md-5 col-form-label">Beam Layer Name @(i+1)</label>
+                                <div class="col-md-7">
+                                    <select asp-for="ViewModelBeam.BeamsLayersName[i]" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                                    <span asp-validation-for="ViewModelBeam.BeamsLayersName[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            @*<div class="form-group row">
+                                <label class="col-md-5 col-form-label">Top Level Of Beam @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelBeam.BeamsTopLevel[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelBeam.BeamsTopLevel[i]" class="alert-danger"></span>
+                                </div>
+                            </div>*@
+                            <div class="form-group row">
+                                <label class="col-md-5 col-form-label">Beams Depth @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelBeam.BeamsDepth[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelBeam.BeamsDepth[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-5 col-form-label">Beams Width @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelBeam.BeamsWidth[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelBeam.BeamsWidth[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                }
+                @if (Model.ViewModelStorey?.SlabsNumberOfCategories > 0)
+                {
+                    for (int i = 0; i < Model.ViewModelStorey.SlabsNumberOfCategories; i++)
+                    {
+                        <div>
+                            <hr style="width:70%;" />
+
+                            <div class="form-group row">
+                                <label asp-for="ViewModelSlab.SlabsLayersName[i]" class="col-md-5 col-form-label">Slab Layer Name @(i+1)</label>
+                                <div class="col-md-7">
+                                    <select asp-for="ViewModelSlab.SlabsLayersName[i]" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                                    <span asp-validation-for="ViewModelSlab.SlabsLayersName[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            @*<div class="form-group row">
+                                <label asp-for="ViewModelSlab.SlabsTopLevel[i]" class="col-md-5 col-form-label">Top Level Of Slab @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelSlab.SlabsTopLevel[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelSlab.SlabsTopLevel[i]" class="alert-danger"></span>
+                                </div>
+                            </div>*@
+                            <div class="form-group row">
+                                <label asp-for="ViewModelSlab.Slabsthickness[i]" class="col-md-5 col-form-label">Slab Thickness @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelSlab.Slabsthickness[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelSlab.Slabsthickness[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+                <hr style="width:70%" />
+
+                <div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelSlab.OpeningLayerName" class="col-md-5 col-form-label">Opening Layer Name</label>
+                        <div class="col-md-7">
+                            <select asp-for="ViewModelSlab.OpeningLayerName" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                            <span asp-validation-for="ViewModelSlab.OpeningLayerName" class="alert-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelSlab.DropLayerName" class="col-md-5 col-form-label">Drop Layer Name</label>
+                        <div class="col-md-7">
+                            <select asp-for="ViewModelSlab.DropLayerName" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                            <span asp-validation-for="ViewModelSlab.DropLayerName" class="alert-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelSlab.DropTopLevel" class="col-md-5 col-form-label">Drop Top Level</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelSlab.DropTopLevel" class="form-control">
+                            <span asp-validation-for="ViewModelSlab.DropTopLevel" class="alert-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelSlab.DropThickness" class="col-md-5 col-form-label">Drop Thickness</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelSlab.DropThickness" class="form-control">
+                            <span asp-validation-for="ViewModelSlab.DropThickness" class="alert-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer" style="margin: 20px 0 60px;">
+            @*<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>*@
+            <button id="submitForm" type="button" class="btn btn-info">Save changes</button>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    document.getElementById("submitForm").addEventListener("click", function () {
+        document.forms["storeyDetails"].submit();
+    });
+</script>
+<style>
+    body {
+        margin-bottom: 120px !important;
+    }
+</style>

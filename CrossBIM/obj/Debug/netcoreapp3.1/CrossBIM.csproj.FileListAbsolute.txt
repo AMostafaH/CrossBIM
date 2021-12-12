@@ -1,0 +1,295 @@
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.json
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.exe
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.deps.json
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.json
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.dev.json
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.AssemblyReference.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfoInputs.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfo.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CoreCompileInputs.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.Manifest.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.xml
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\scopedcss\bundle\CrossBIM.styles.css
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.input.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.output.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorCoreGenerate.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.genruntimeconfig.cache
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CopyComplete
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\netDxf.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Common.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Geometry.Engine.Interop.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc2x3.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc4.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.IO.MemoryModel.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.ModelGeometry.Scene.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Tessellator.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\DownLoad.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\Index.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingBasicDetails.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingFullDetails.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyBasicDetails.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyFullDetails.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\DownLoad.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\Index.cshtml.g.cs
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\ITI\ITI Study\Gradution Project\NetDXF\Final\CrossBIMStrikers\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\web.config
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.json
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.exe
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.deps.json
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.json
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.dev.json
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Emgu.CV.Platform.NetStandard.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Emgu.CV.Bitmap.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\netDxf.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Common.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Geometry.Engine.Interop.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc2x3.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc4.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.IO.MemoryModel.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.ModelGeometry.Scene.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Tessellator.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\cvextern.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg451_64.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\cvextern.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg451.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\concrt140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_1.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_2.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vccorlib140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140_1.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\concrt140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_1.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_2.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\vcruntime140.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\CrossBIM\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csprojAssemblyReference.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfoInputs.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfo.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CoreCompileInputs.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.MvcApplicationPartsAssemblyInfo.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.Manifest.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.xml
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\scopedcss\bundle\CrossBIM.styles.css
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.input.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.output.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorCoreGenerate.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\DownLoad.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\Index.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingBasicDetails.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingFullDetails.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyBasicDetails.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyFullDetails.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\DownLoad.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\Index.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cache
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cs
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CopyComplete
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.dll
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\CrossBIM\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.genruntimeconfig.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\web.config
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\appsettings.json
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.exe
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.deps.json
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.json
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.runtimeconfig.dev.json
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Emgu.CV.Platform.NetStandard.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Emgu.CV.Bitmap.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\netDxf.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Common.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Geometry.Engine.Interop.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc2x3.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Ifc4.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.IO.MemoryModel.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.ModelGeometry.Scene.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\Xbim.Tessellator.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\cvextern.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_videoio_ffmpeg451_64.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\cvextern.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\opencv_videoio_ffmpeg451.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\concrt140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_1.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_2.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_atomic_wait.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcp140_codecvt_ids.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vccorlib140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\vcruntime140_1.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\concrt140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_1.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_2.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\msvcp140_codecvt_ids.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\vcruntime140.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\bin\Debug\netcoreapp3.1\CrossBIMLib.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.AssemblyReference.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfoInputs.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.AssemblyInfo.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CoreCompileInputs.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.MvcApplicationPartsAssemblyInfo.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorAssemblyInfo.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.Manifest.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\staticwebassets\CrossBIM.StaticWebAssets.xml
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\scopedcss\bundle\CrossBIM.styles.css
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.input.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.TagHelpers.output.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorCoreGenerate.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\DownLoad.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\Index.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingBasicDetails.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\IsoFootingFullDetails.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyBasicDetails.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\DXFToIFC\StoreyFullDetails.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\DownLoad.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\ImageToDXF\Index.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cache
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.RazorTargetAssemblyInfo.cs
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.Views.pdb
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.csproj.CopyComplete
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.dll
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.pdb
+D:\GitHub\Uploads\CrossBIMStrikers2\CrossBIM\obj\Debug\netcoreapp3.1\CrossBIM.genruntimeconfig.cache

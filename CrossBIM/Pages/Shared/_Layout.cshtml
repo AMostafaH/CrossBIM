@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CrossBIM</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/StyleSheet.css"/>
+    
+    <link rel="icon" href="~/favicon.ico" type="image/png" sizes="16x16">
+
+</head>
+<body>
+    <header>
+        <!--Start Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom box-shadow">
+            <div class="container">
+
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="~/Images/CrossBIMLog.jpeg" style="border-radius:50%;height:60px;margin-bottom:17px" class="img-thumbnail" />
+                    <span class="text-dark logo">CrossBIM</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="mainNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/DXFToIFC/Index">DXFToIFC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/ImageToDXF/Index">ImageToDXF</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End Navbar-->
+    </header>
+    <div>
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer box-shadow">
+        <div class="container text-dark text-center">
+            Copyright &copy; @DateTime.Now.Year - CrossBIM
+        </div>
+    </footer>
+
+    <!--Start Footer-->
+    <!--<footer class="footer border-top bg-light box-shadow">
+        <p class="text-dark">Copyright &copy; @DateTime.Now.Year - CrossBIM </p>
+    </footer>-->
+    <!--End Footer-->
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+<style>
+
+    .navbar {
+        padding: 2px !important
+    }
+
+    .navbar-brand {
+        padding: 0 !important
+    }
+
+    .navbar .navbar-brand .logo {
+        font-size: 30px !important;
+        font-weight: 400 !important;
+        display: inline-block
+    }
+    #mainNav .nav-item a.nav-link {
+        padding:8px !important;
+        margin:0
+    }
+    #mainNav .nav-item .nav-link, .navbar-brand {
+        display: inline-block;
+        margin-top: 5px;
+    }
+    .navbar-brand img {
+        margin-bottom: 10px !important;
+        height: 50px !important;
+        padding: 4px;
+        border-radius: 50%;
+    }
+    #mainNav .nav-item .nav-link, .navbar-brand span,
+    #mainNav .nav-item .nav-link, .navbar-brand img {
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+    }
+
+    #mainNav .nav-item .nav-link:hover, .navbar-brand span:hover{
+        color: #17a2b8 !important;
+    }
+
+    #mainNav .nav-item .nav-link, .navbar-brand img:hover {
+        border-color: #17a2b8 !important;
+    }
+
+    .footer {
+        font-size: 18px;
+        line-height: 65px !important;
+    }
+</style>

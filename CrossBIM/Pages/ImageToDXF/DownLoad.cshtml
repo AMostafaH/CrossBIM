@@ -1,0 +1,42 @@
+﻿@page
+@model CrossBIM.Pages.ImageToDXF.DownLoadModel
+@{
+}
+
+
+<div class="container">
+    @*<div class="row" style="margin: auto;width:60%">*@
+    <h3 class="mt-3">Download DXF File</h3>
+    <hr />
+
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <input asp-for="DXFFileName" hidden />
+            <div class="form-group">
+                <button type="submit" asp-page-handler="DownloadFile" class="btn btn-info">
+                    <i class="fa fa-cloud-download fa-fw"></i> Download DXF
+                </button>
+            </div>
+        </form>
+    </div>
+    @*</div>*@
+</div>
+
+@*<script language="javascript">
+window.tdiff = []; fred = function(a,b){return a-b;};
+window.document.onload = function(e){ 
+    console.log("document.onload", e, Date.now() ,window.tdiff,  
+    (window.tdiff[0] = Date.now()) && window.tdiff.reduce(fred) ); 
+}
+window.onload = function(e){ 
+    console.log("window.onload", e, Date.now() ,window.tdiff, 
+        (window.tdiff[1] = Date.now()) && window.tdiff.reduce(fred));
+</script>*@
+@*<style>
+        .Footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            white-space: nowrap;
+        }
+    </style>*@

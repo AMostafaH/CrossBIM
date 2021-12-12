@@ -1,0 +1,69 @@
+﻿@page
+@model CrossBIM.Pages.DXFToIFC.IsoFootingBasicDetailsModel
+@{
+}
+<div class="mt-3 container">
+    <div style="margin: auto;width:60%">
+
+        <h3>Isolated Footing</h3>
+        <hr />
+
+        <div class="modal-body">
+            <form method="post" id="basicDetails" enctype="multipart/form-data">
+                <input asp-for="ProjectName" hidden />
+                <input asp-for="ProjectUnits" hidden />
+
+                <div class="modal-body">
+
+                    @if (Model.Message != null)
+                    {
+                        <span class="text-danger" style="display:inline-block;margin-bottom:10px">@Model.Message</span>
+                    }
+
+                    <div class="form-group row">
+                        <label asp-for="RefFile" class="col-md-5 col-form-label">Select Storey DXF File</label>
+                        <div class="col-md-7">
+                            <input type="file" asp-for="RefFile" class="form-control" accept=".dxf,.dwg" />
+                            <span asp-validation-for="RefFile" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.FootingNumberOfCategories" class="col-md-5 col-form-label">Footing Number Of Categories</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelIsoFooting.FootingNumberOfCategories" class="form-control">
+                            <span asp-validation-for="ViewModelIsoFooting.FootingNumberOfCategories" class="alert-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.StripsNumberOfCategories" class="col-md-5 col-form-label">Strips Number Of Categories</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelIsoFooting.StripsNumberOfCategories" class="form-control">
+                            <span asp-validation-for="ViewModelIsoFooting.StripsNumberOfCategories" class="alert-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            @*<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>*@
+            <button id="submitbasicForm" type="button" class="btn btn-info">Save changes</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("submitbasicForm").addEventListener("click", function () {
+        document.forms["basicDetails"].submit();
+    });
+</script>
+@*<style>
+    .Footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+    }
+</style>*@

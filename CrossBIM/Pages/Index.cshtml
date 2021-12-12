@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div class="cover ">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="btn-convertDXF text-center">
+            <a asp-area="" asp-page="/ImageToDXF/Index" class="btn btn-lg btn-outline-info" style="width:230px">Convert Image To DXF</a>
+        </div>
+        <div class="btn-convertIFC text-center">
+            <a asp-area="" asp-page="/DXFToIFC/Index" class="btn btn-lg btn-outline-info" style="margin-top:15px; width: 230px">Convert DXF To IFC</a>
+        </div>
+    </div>
+</div>
+
+<!--Start use-application-->
+<div class="use-application text-center">
+    <div class="container">
+        <h3 class="h1">How To Use Our Application?</h3>
+        <p class="intro">Step-by-step instructions for converting Images to DXF</p>
+        <div class="row cont">
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-upload fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="card-subtitle mb-2 text-muted">Upload Your Image</h5>
+                <p class="card-text">Click "Convert Image To DXF" button to select an image on your computer.</p>
+            </div>
+            <!--End the Column-->
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-spinner fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="card-subtitle mb-2 text-muted">Wait Process to Complete</h5>
+                <p class="card-text">Click "Convert" button to start conversion.</p>
+            </div>
+            <!--End the Column-->
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-download fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="mb-2 text-muted">Download Your DXF</h5>
+                <p>When the conversion process is complete, you can download the DXF file.</p>
+            </div>
+            <!--End the Column-->
+        </div>
+        <div style="margin-top:60px"></div>
+        <p class="intro">Step-by-step instructions for converting DXF to IFC</p>
+        <div class="row cont">
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-upload fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="mb-2 text-muted">Upload Your DXF</h5>
+                <p>Click "Convert DXF To IFC" button to select an DXF file on your computer.</p>
+            </div>
+            <!--End the Column-->
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-spinner fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="mb-2 text-muted">Wait Process to Complete</h5>
+                <p>Make sure that each structure element has it's own layer, fill some additional information about layers used in your DXF file and other level related to your structure elements.</p>
+                <p>Click "Convert" button to start conversion.</p>
+            </div>
+            <!--End the Column-->
+            <!--Start the Column-->
+            <div class="col-md-6 col-lg ">
+                <i class="fa fa-download fa-5x fa-fw" aria-hidden="true"></i>
+                <h5 class="card-subtitle mb-2 text-muted">Download Your IFC</h5>
+                <p class="card-text">When the conversion process is complete, you can download the IFC file.</p>
+            </div>
+            <!--End the Column-->
+        </div>
+    </div>
+</div>
+<!--End use-application-->
+@*<style>
+    .Footer {
+        padding: 30px;
+        text-align: center;
+        font-size: 18px;
+    }
+</style>*@

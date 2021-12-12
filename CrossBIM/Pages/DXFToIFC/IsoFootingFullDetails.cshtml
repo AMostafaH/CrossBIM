@@ -1,0 +1,153 @@
+﻿@page
+@model CrossBIM.Pages.DXFToIFC.IsoFootingFullDetailsModel
+@{
+}
+
+<div class="mt-3 container">
+    <div style="margin: auto;width:60%">
+
+        <h3>Isolated Footing</h3>
+        <hr />
+
+        <div class="modal-body">
+            <form method="post" id="IsolatedFootingDetails" enctype="multipart/form-data">
+
+                <input asp-for="ViewModelStorey.DXFFilePath" hidden />
+                <input asp-for="ProjectName" hidden />
+                <input asp-for="ProjectUnits" hidden />
+                <input asp-for="IFCFileName" hidden />
+
+                <input asp-for="FootingNumberOfCategories" hidden />
+                <input asp-for="StripsNumberOfCategories" hidden />
+
+                <div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.Elevation" class="col-md-5 col-form-label">Isolated Footing Elevation</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelIsoFooting.Elevation" class="form-control">
+                            <span asp-validation-for="ViewModelIsoFooting.Elevation" class="alert-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                @if (Model.FootingNumberOfCategories > 0)
+                {
+                    @for (int i = 0; i < Model.FootingNumberOfCategories; i++)
+                    {
+                        <div>
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.IsoFootingLayersName[i]" class="col-md-5 col-form-label">Isolated Footing Layer Name @(i+1)</label>
+                                <div class="col-md-7">
+                                    <select asp-for="ViewModelIsoFooting.IsoFootingLayersName[i]" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                                    <span asp-validation-for="ViewModelIsoFooting.IsoFootingLayersName[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.IsoFootingTopLevel[i]" class="col-md-5 col-form-label">Isolated Footing Top Level @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelIsoFooting.IsoFootingTopLevel[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelIsoFooting.IsoFootingTopLevel[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-5 col-form-label">Isolated Footing Depth @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelIsoFooting.IsoFootingDepth[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelIsoFooting.IsoFootingDepth[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="width:70%" />
+                    }
+                }
+
+                <div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.PCOffset" class="col-md-5 col-form-label">Plain Concrete Offset</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelIsoFooting.PCOffset" class="form-control">
+                            <span asp-validation-for="ViewModelIsoFooting.PCOffset" class="alert-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.PCDepth" class="col-md-5 col-form-label">Plain Concrete Depth</label>
+                        <div class="col-md-7">
+                            <input asp-for="ViewModelIsoFooting.PCDepth" class="form-control">
+                            <span asp-validation-for="ViewModelIsoFooting.PCDepth" class="alert-danger"></span>
+                        </div>
+                    </div>
+                </div>
+
+                @if (Model.StripsNumberOfCategories > 0)
+                {
+                    for (int i = 0; i < Model.StripsNumberOfCategories; i++)
+                    {
+                        <div>
+                            <hr style="width:70%;" />
+
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.StripsLayerName[i]" class="col-md-5 col-form-label">Strip Layer Name @(i+1)</label>
+                                <div class="col-md-7">
+                                    <select asp-for="ViewModelIsoFooting.StripsLayerName[i]" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                                    <span asp-validation-for="ViewModelIsoFooting.StripsLayerName[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.StripsTopLevel[i]" class="col-md-5 col-form-label">Top Level Of Strip @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelIsoFooting.StripsTopLevel[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelIsoFooting.StripsTopLevel[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.StripsWidth[i]" class="col-md-5 col-form-label">Strip Width @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelIsoFooting.StripsWidth[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelIsoFooting.StripsWidth[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label asp-for="ViewModelIsoFooting.StripsDepth[i]" class="col-md-5 col-form-label">Strip Depth @(i+1)</label>
+                                <div class="col-md-7">
+                                    <input asp-for="ViewModelIsoFooting.StripsDepth[i]" class="form-control">
+                                    <span asp-validation-for="ViewModelIsoFooting.StripsDepth[i]" class="alert-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                <div>
+                    <hr style="width:70%;" />
+
+                    <div class="form-group row">
+                        <label asp-for="ViewModelIsoFooting.BaseColumnLayerName" class="col-md-5 col-form-label">Base Column Layer Name</label>
+                        <div class="col-md-7">
+                            <select asp-for="ViewModelIsoFooting.BaseColumnLayerName" asp-items="@(new SelectList(Model.ViewModelStorey.DXFLayersNames))" class="form-control"></select>
+                            <span asp-validation-for="ViewModelIsoFooting.BaseColumnLayerName" class="alert-danger"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer" style="margin: 20px 0 60px;">
+            @*<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>*@
+            <button id="submitForm" type="button" class="btn btn-info">Save changes</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("submitForm").addEventListener("click", function () {
+        document.forms["IsolatedFootingDetails"].submit();
+    });
+</script>
+@*<style>
+    .Footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+    }
+</style>*@
